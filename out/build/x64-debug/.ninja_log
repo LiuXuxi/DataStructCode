@@ -1,0 +1,23 @@
+# ninja log v6
+42	385	7836987553540348	CMakeFiles/01_LinearStruct.dir/01_LinearStruct/arraylist.cpp.obj	9cf4baf1b6235a41
+44	908	7838891592011541	01_LinearStruct/CMakeFiles/06_Queue.dir/06_Queue/main.cpp.obj	1d469e2d0b3500db
+37	384	7836987553540348	CMakeFiles/01_LinearStruct.dir/01_LinearStruct/main.cpp.obj	3773af7dd774f064
+386	641	7836987557022575	01_LinearStruct.exe	b8af4e7be6ba7eee
+14	927	7838860560800575	01_LinearStruct/CMakeFiles/01_ArrayList.dir/01_ArrayList/arraylist.cpp.obj	38fc94742f54e0d1
+7	844	7838830479143004	01_LinearStruct/CMakeFiles/01_ArrayList.dir/01_ArrayList/main.cpp.obj	2f9349eadef3dac7
+929	1438	7838860569942181	01_LinearStruct/01_ArrayList.exe	9cf77be3f7712e5f
+44	1168	7838891348625678	01_LinearStruct/CMakeFiles/06_Queue.dir/06_Queue/arrayqueue.cpp.obj	ec43c7b252599200
+61	1163	7841143592346647	01_LinearStruct/CMakeFiles/05_Stack.dir/05_Stack/main.cpp.obj	c830cc2ec788b912
+909	1349	7838891600668541	01_LinearStruct/06_Queue.exe	4a2c36280a1ca8f7
+58	1213	7838891348771705	01_LinearStruct/CMakeFiles/06_Queue.dir/06_Queue/linkqueue.cpp.obj	a0b3e7ea9b22c57f
+38	661	7839420310934447	01_LinearStruct/CMakeFiles/02_LinkList.dir/02_LinkList/main.cpp.obj	2008b17b0e8260b5
+36	970	7839622490759766	01_LinearStruct/CMakeFiles/02_LinkList.dir/02_LinkList/linklist.cpp.obj	5d0311da28e51ff6
+487	1031	7841143917847590	01_LinearStruct/04_DoubleLinkLoop.exe	ccd3b52872bef79b
+35	311	7839653770266859	01_LinearStruct/02_LinkList.exe	185bb08d1d2ce1b1
+42	530	7839622490810460	01_LinearStruct/CMakeFiles/02_LinkList.dir/03_LinkLoop/main.cpp.obj	f25a8893d8d3dbf9
+18	1770	7839726130608007	01_LinearStruct/CMakeFiles/03_LinkLoop.dir/03_LinkLoop/main.cpp.obj	5c226f412ed5d34a
+14	397	7839708359081510	01_LinearStruct/CMakeFiles/03_LinkLoop.dir/03_LinkLoop/linkloop.cpp.obj	fe53490e68e836cf
+1771	2457	7839726148133527	01_LinearStruct/03_LinkLoop.exe	26b10a38c98e1162
+85	869	7845481688169458	build.ninja	eaae0d15e83a40a9
+1164	2558	7841143603397934	01_LinearStruct/05_Stack.exe	b997430f22908df6
+8	486	7841143913068702	01_LinearStruct/CMakeFiles/04_DoubleLinkLoop.dir/04_DoubleLinkLoop/main.cpp.obj	a0d92a9f3a1d756f
