@@ -102,7 +102,7 @@ CMAKE_INSTALL_PREFIX:PATH=D:/Develop/vs2022/develop/DataStructPractice/out/insta
 CMAKE_LINKER:FILEPATH=D:/vs2022/load/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe
 
 //No help, variable specified on the command line.
-CMAKE_MAKE_PROGRAM:UNINITIALIZED=D:\VS2022\LOAD\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\Ninja\ninja.exe
+CMAKE_MAKE_PROGRAM:UNINITIALIZED=d:\vs2022\load\community\common7\ide\commonextensions\microsoft\cmake\Ninja\ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.

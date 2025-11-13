@@ -1,0 +1,155 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "01_LinearStruct",
+					"jsonFile" : "directory-01_LinearStruct-Debug-4cc89acbf93ccf67c83e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01_LinearStruct",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "02_TreeStruct",
+					"jsonFile" : "directory-02_TreeStruct-Debug-8a33dfb389dc15ec87f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "02_TreeStruct",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "01_LinearStruct",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "01_ArrayList::@16f2a2e66824b4079e54",
+					"jsonFile" : "target-01_ArrayList-Debug-ed98a7e018aa02fde3ad.json",
+					"name" : "01_ArrayList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "02_LinkList::@16f2a2e66824b4079e54",
+					"jsonFile" : "target-02_LinkList-Debug-88a320b8f136a6140268.json",
+					"name" : "02_LinkList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "03_LinkLoop::@16f2a2e66824b4079e54",
+					"jsonFile" : "target-03_LinkLoop-Debug-9fb5089a973e1ed8ebda.json",
+					"name" : "03_LinkLoop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "04_DoubleLinkLoop::@16f2a2e66824b4079e54",
+					"jsonFile" : "target-04_DoubleLinkLoop-Debug-b8533890ad96d22984a0.json",
+					"name" : "04_DoubleLinkLoop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "05_Stack::@16f2a2e66824b4079e54",
+					"jsonFile" : "target-05_Stack-Debug-3f4bee10e8221a991895.json",
+					"name" : "05_Stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "06_Queue::@16f2a2e66824b4079e54",
+					"jsonFile" : "target-06_Queue-Debug-ff8e990cc7a8ea63b820.json",
+					"name" : "06_Queue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "07_BinaryTreeTravel::@7577e092ba5fc6f46e46",
+					"jsonFile" : "target-07_BinaryTreeTravel-Debug-e5144f0ffb3b551f261d.json",
+					"name" : "07_BinaryTreeTravel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "08_ThreadedBTree::@7577e092ba5fc6f46e46",
+					"jsonFile" : "target-08_ThreadedBTree-Debug-a9c107ffaf88293cbdfa.json",
+					"name" : "08_ThreadedBTree",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug",
+		"source" : "D:/Develop/vs2022/develop/DataStructPractice"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

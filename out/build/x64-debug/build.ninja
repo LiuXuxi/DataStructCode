@@ -376,6 +376,49 @@ build 02_TreeStruct\07_BinaryTreeTravel.exe: CXX_EXECUTABLE_LINKER__07_BinaryTre
   TARGET_IMPLIB = 02_TreeStruct\07_BinaryTreeTravel.lib
   TARGET_PDB = 02_TreeStruct\07_BinaryTreeTravel.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 08_ThreadedBTree
+
+
+#############################################
+# Order-only phony target for 08_ThreadedBTree
+
+build cmake_object_order_depends_target_08_ThreadedBTree: phony || .
+
+build 02_TreeStruct\CMakeFiles\08_ThreadedBTree.dir\02_ThreadedBTree\main.cpp.obj: CXX_COMPILER__08_ThreadedBTree_unscanned_Debug D$:\Develop\vs2022\develop\DataStructPractice\02_TreeStruct\02_ThreadedBTree\main.cpp || cmake_object_order_depends_target_08_ThreadedBTree
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = 02_TreeStruct\CMakeFiles\08_ThreadedBTree.dir
+  OBJECT_FILE_DIR = 02_TreeStruct\CMakeFiles\08_ThreadedBTree.dir\02_ThreadedBTree
+  TARGET_COMPILE_PDB = 02_TreeStruct\CMakeFiles\08_ThreadedBTree.dir\
+  TARGET_PDB = 02_TreeStruct\08_ThreadedBTree.pdb
+
+build 02_TreeStruct\CMakeFiles\08_ThreadedBTree.dir\02_ThreadedBTree\ThreadedBTree.cpp.obj: CXX_COMPILER__08_ThreadedBTree_unscanned_Debug D$:\Develop\vs2022\develop\DataStructPractice\02_TreeStruct\02_ThreadedBTree\ThreadedBTree.cpp || cmake_object_order_depends_target_08_ThreadedBTree
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = 02_TreeStruct\CMakeFiles\08_ThreadedBTree.dir
+  OBJECT_FILE_DIR = 02_TreeStruct\CMakeFiles\08_ThreadedBTree.dir\02_ThreadedBTree
+  TARGET_COMPILE_PDB = 02_TreeStruct\CMakeFiles\08_ThreadedBTree.dir\
+  TARGET_PDB = 02_TreeStruct\08_ThreadedBTree.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 08_ThreadedBTree
+
+
+#############################################
+# Link the executable 02_TreeStruct\08_ThreadedBTree.exe
+
+build 02_TreeStruct\08_ThreadedBTree.exe: CXX_EXECUTABLE_LINKER__08_ThreadedBTree_Debug 02_TreeStruct\CMakeFiles\08_ThreadedBTree.dir\02_ThreadedBTree\main.cpp.obj 02_TreeStruct\CMakeFiles\08_ThreadedBTree.dir\02_ThreadedBTree\ThreadedBTree.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = 02_TreeStruct\CMakeFiles\08_ThreadedBTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 02_TreeStruct\CMakeFiles\08_ThreadedBTree.dir\
+  TARGET_FILE = 02_TreeStruct\08_ThreadedBTree.exe
+  TARGET_IMPLIB = 02_TreeStruct\08_ThreadedBTree.lib
+  TARGET_PDB = 02_TreeStruct\08_ThreadedBTree.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -430,6 +473,10 @@ build 07_BinaryTreeTravel: phony 02_TreeStruct\07_BinaryTreeTravel.exe
 
 build 07_BinaryTreeTravel.exe: phony 02_TreeStruct\07_BinaryTreeTravel.exe
 
+build 08_ThreadedBTree: phony 02_TreeStruct\08_ThreadedBTree.exe
+
+build 08_ThreadedBTree.exe: phony 02_TreeStruct\08_ThreadedBTree.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -452,7 +499,7 @@ build 01_LinearStruct\all: phony 01_LinearStruct\01_ArrayList.exe 01_LinearStruc
 #############################################
 # Folder: D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/02_TreeStruct
 
-build 02_TreeStruct\all: phony 02_TreeStruct\07_BinaryTreeTravel.exe
+build 02_TreeStruct\all: phony 02_TreeStruct\07_BinaryTreeTravel.exe 02_TreeStruct\08_ThreadedBTree.exe
 
 # =============================================================================
 # Built-in targets
