@@ -10,5 +10,6 @@ D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/01_LinearStruct
 D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/01_LinearStruct/CMakeFiles/rebuild_cache.dir
 D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/02_TreeStruct/CMakeFiles/07_BinaryTreeTravel.dir
 D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/02_TreeStruct/CMakeFiles/08_ThreadedBTree.dir
+D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/02_TreeStruct/CMakeFiles/09_BSTree.dir
 D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/02_TreeStruct/CMakeFiles/edit_cache.dir
 D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/02_TreeStruct/CMakeFiles/rebuild_cache.dir

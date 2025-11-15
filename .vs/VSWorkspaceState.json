@@ -14,7 +14,8 @@
   "ExpandedNodes": [
     "",
     "\\02_TreeStruct",
-    "\\02_TreeStruct\\02_ThreadedBTree"
+    "\\02_TreeStruct\\03_BSTree"
   ],
+  "SelectedNode": "\\02_TreeStruct\\03_BSTree\\main.cpp",
   "PreviewInSolutionExplorer": false
 }
