@@ -48,6 +48,34 @@ private:
 		int rcnt = getHeight(node->right);
 		return (lcnt > rcnt) ? lcnt + 1 : rcnt + 1;
 	}
+	BSNode* deleteSearch(BSNode* node) {
+		if (!node->left)node = node->left;
+		return node;
+	}
+	BSNode* deleteBSNode(BSNode*node,T v) {
+		if (!node)return node;
+		if (v < node->data)node->left = deleteBSNode(node->left, v);
+		else if (v > node->data)node->right = deleteBSNode(node->right, v);
+		else {
+			BSNode* temp;
+			if (!node->left) {
+				temp = node->right;
+				delete(node);
+				--cnt;
+				return temp;
+			}
+			if (!node->right) {
+				temp = node->left;
+				delete(node);
+				--cnt;
+				return temp;
+			}
+			temp = deleteSearch(node->right);
+			node->data = temp->data;
+			node->right = deleteBSNode(node->right, node->data);
+		}
+		return node;
+	}
 public:
 	BSTree() {
 		root = nullptr;
@@ -63,8 +91,25 @@ public:
 		}
 		std::cout << "the tree has been destroyed, remaining " << cnt << " node" << std::endl;
 	}
+	//µÝ¹é²åÈë
 	void insertBSNode(T v) {
 		root = insert(root, v);
+	}
+	//·ÇµÝ¹é²åÈë
+	void insertBSNodeV2(T v) {
+		BSNode* pre = nullptr;
+		BSNode* cur = root;
+		while (cur) {
+			pre = cur;
+			if (v < cur->data)cur = cur->left;
+			else if (v > cur->data)cur = cur->right;
+			else return;
+		}
+		cur = creatBSNode(v);
+		if (!pre)root = cur;
+		else if (v < pre->data)pre->left = cur;
+		else pre->right = cur;
+		++cnt;
 	}
 	void searchBSNode(T v) {
 		if (root) {
@@ -92,5 +137,42 @@ public:
 	int getHightBSTree() {
 		if (root)return getHeight(root);
 		else return 0;
+	}
+	//µÝ¹éÉ¾³ý
+	void deleteBSTree(T v) {
+		root= deleteBSNode(root, v);
+	}
+	//·ÇµÝ¹éÉ¾³ý
+	void deleteBSTreeV2(T v) {
+		BSNode* pre = nullptr;
+		BSNode* cur = root;
+		while (cur && cur->data != v) {
+			pre = cur;
+			if (v < cur->data)cur = cur->left;
+			else cur = cur->right;
+		}
+		if (!cur)return;
+		if (!cur->left || !cur->right) {
+			BSNode* temp;
+			if (cur->left)temp = cur->left;
+			else temp = cur->right;
+			if (pre->left == cur)pre->left = temp;
+			else pre->right = temp;
+			delete(cur);
+			--cnt;
+		}
+		else {
+			BSNode* pretemp = cur;
+			BSNode* curtemp = cur->left;
+			while (curtemp->left) {
+				pretemp = curtemp;
+				curtemp = curtemp->left;
+			}
+			cur->data = curtemp->data;
+			if (pretemp->left == curtemp)pretemp->left = curtemp->right;
+			else pretemp->right = curtemp->right;
+			delete(curtemp);
+			--cnt;
+		}
 	}
 };
