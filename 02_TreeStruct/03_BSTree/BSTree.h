@@ -1,5 +1,6 @@
 #pragma once
 #include<iostream>
+#include<stack>
 template<class T>
 class BSTree {
 private:
@@ -76,6 +77,21 @@ private:
 		}
 		return node;
 	}
+	void preOrder(BSNode* node) {
+		if (node) {
+			visitBSNode(node);
+			preOrder(node->left);
+			preOrder(node->right);
+		}
+	}
+	void postOrder(BSNode*node) {
+		if (root) {
+			if (!node)return;
+			postOrder(node->left);
+			postOrder(node->right);
+			visitBSNode(node);
+		}
+	}
 public:
 	BSTree() {
 		root = nullptr;
@@ -125,12 +141,34 @@ public:
 			std::cout << "find failed" << std::endl;
 		}
 	}
+	//递归中序深度遍历
 	void inOrderBSTree() {
 		if (root) {
 			inOrder(root);
 		}
 		std::cout << std::endl;
 	}
+	//非递归中序深度遍历
+	void inOrderBSTreeNoCur() {
+		if (root) {
+			std::stack<BSNode*>a;
+			BSNode*head = root;
+			while (!a.empty() || head) {
+				if (head) {
+					a.push(head);
+					head = head->left;
+				}
+				else {
+					head = a.top();
+					a.pop();
+					visitBSNode(head);
+					head = head->right;
+				}
+			}
+		}
+		std::cout << std::endl;
+	}
+
 	int getCnt() {
 		return cnt;
 	}
@@ -174,5 +212,51 @@ public:
 			delete(curtemp);
 			--cnt;
 		}
+	}
+
+	//递归前序深度遍历
+	void preOrderCur() {
+		if (root)preOrder(root);
+		std::cout << std::endl;
+	}
+
+	//非递归前序深度遍历
+	void preOrderNoCur() {
+		std::stack<BSNode*> a;
+		a.push(root);
+		while (!a.empty()) {
+			BSNode* node = a.top();
+			a.pop();
+			visitBSNode(node);
+			if (node->right)a.push(node->right);
+			if (node->left)a.push(node->left);
+		}
+		std::cout << std::endl;
+	}
+
+	//递归后序深度遍历
+	void postOrderCur(){
+		if (root)postOrder(root);
+		std::cout << std::endl;
+	}
+
+	//非递归后序深度遍历
+	void postOrderNoCur() {
+		if (root) {
+			std::stack<BSNode*>a, b;
+			a.push(root);
+			while (!a.empty()) {
+				BSNode* node = a.top();
+				a.pop();
+				b.push(node);
+				if (node->left)a.push(node->left);
+				if (node->right)a.push(node->right);
+			}
+			while (!b.empty()) {
+				visitBSNode(b.top());
+				b.pop();
+			}
+		}
+		std::cout << std::endl;
 	}
 };

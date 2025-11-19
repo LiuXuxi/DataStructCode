@@ -7,9 +7,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:02_TreeStruct\\03_BSTree\\BSTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lxx\\AppData\\Local\\Temp\\d48629c7-4304-42b0-9bfe-a37c4d66fa50_\u4E8C\u53C9\u641C\u7D22\u6811\u4EE3\u7801\u5168.zip.a50\\02_TreeStruct\\03_BinarySearchTree\\BSTree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\03_BSTree\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:02_TreeStruct\\03_BSTree\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -35,7 +32,7 @@
               "RelativeDocumentMoniker": "02_TreeStruct\\03_BSTree\\BSTree.h",
               "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\03_BSTree\\BSTree.h",
               "RelativeToolTip": "02_TreeStruct\\03_BSTree\\BSTree.h",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAswJwAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAmwPMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-15T01:46:43.77Z",
               "IsPinned": true,
@@ -55,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\CMakeLists.txt",
               "RelativeDocumentMoniker": "02_TreeStruct\\CMakeLists.txt",
@@ -69,23 +66,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BSTree.c",
-              "DocumentMoniker": "C:\\Users\\lxx\\AppData\\Local\\Temp\\d48629c7-4304-42b0-9bfe-a37c4d66fa50_\u4E8C\u53C9\u641C\u7D22\u6811\u4EE3\u7801\u5168.zip.a50\\02_TreeStruct\\03_BinarySearchTree\\BSTree.c",
-              "ToolTip": "C:\\Users\\lxx\\AppData\\Local\\Temp\\d48629c7-4304-42b0-9bfe-a37c4d66fa50_\u4E8C\u53C9\u641C\u7D22\u6811\u4EE3\u7801\u5168.zip.a50\\02_TreeStruct\\03_BinarySearchTree\\BSTree.c [\u53EA\u8BFB]",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAAALcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-18T07:01:45.825Z",
-              "EditorCaption": " [\u53EA\u8BFB]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\03_BSTree\\main.cpp",
               "RelativeDocumentMoniker": "02_TreeStruct\\03_BSTree\\main.cpp",
               "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\03_BSTree\\main.cpp",
               "RelativeToolTip": "02_TreeStruct\\03_BSTree\\main.cpp",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwB8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAWwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-15T01:46:32.403Z",
               "EditorCaption": ""

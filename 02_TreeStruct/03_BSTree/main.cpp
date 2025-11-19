@@ -35,7 +35,22 @@ void BSTreeTest2() {
 	a.inOrderBSTree();
 }
 
+void BSTreeTest3() {
+	int data[8] = { 1,34,5,35,63,86,45,453 };
+	BSTree<int>a;
+	for (int i = 0; i < sizeof(data) / sizeof(data[0]); i++)a.insertBSNodeV2(data[i]);
+	a.preOrderCur();
+	a.preOrderNoCur();
+	std::cout << "===============" << std::endl;
+	a.inOrderBSTree();
+	a.inOrderBSTreeNoCur();
+	std::cout << "====================" << std::endl;
+	a.postOrderCur();
+	a.postOrderNoCur();
+
+}
+
 int main() {
-	BSTreeTest2();
+	BSTreeTest3();
 	return 0;
 }
