@@ -455,6 +455,42 @@ build 02_TreeStruct\09_BSTree.exe: CXX_EXECUTABLE_LINKER__09_BSTree_Debug 02_Tre
   TARGET_IMPLIB = 02_TreeStruct\09_BSTree.lib
   TARGET_PDB = 02_TreeStruct\09_BSTree.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 10_AVLTree
+
+
+#############################################
+# Order-only phony target for 10_AVLTree
+
+build cmake_object_order_depends_target_10_AVLTree: phony || .
+
+build 02_TreeStruct\CMakeFiles\10_AVLTree.dir\04_AVLTree\main.cpp.obj: CXX_COMPILER__10_AVLTree_unscanned_Debug D$:\Develop\vs2022\develop\DataStructPractice\02_TreeStruct\04_AVLTree\main.cpp || cmake_object_order_depends_target_10_AVLTree
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = 02_TreeStruct\CMakeFiles\10_AVLTree.dir
+  OBJECT_FILE_DIR = 02_TreeStruct\CMakeFiles\10_AVLTree.dir\04_AVLTree
+  TARGET_COMPILE_PDB = 02_TreeStruct\CMakeFiles\10_AVLTree.dir\
+  TARGET_PDB = 02_TreeStruct\10_AVLTree.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10_AVLTree
+
+
+#############################################
+# Link the executable 02_TreeStruct\10_AVLTree.exe
+
+build 02_TreeStruct\10_AVLTree.exe: CXX_EXECUTABLE_LINKER__10_AVLTree_Debug 02_TreeStruct\CMakeFiles\10_AVLTree.dir\04_AVLTree\main.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = 02_TreeStruct\CMakeFiles\10_AVLTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 02_TreeStruct\CMakeFiles\10_AVLTree.dir\
+  TARGET_FILE = 02_TreeStruct\10_AVLTree.exe
+  TARGET_IMPLIB = 02_TreeStruct\10_AVLTree.lib
+  TARGET_PDB = 02_TreeStruct\10_AVLTree.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -517,6 +553,10 @@ build 09_BSTree: phony 02_TreeStruct\09_BSTree.exe
 
 build 09_BSTree.exe: phony 02_TreeStruct\09_BSTree.exe
 
+build 10_AVLTree: phony 02_TreeStruct\10_AVLTree.exe
+
+build 10_AVLTree.exe: phony 02_TreeStruct\10_AVLTree.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -539,7 +579,7 @@ build 01_LinearStruct\all: phony 01_LinearStruct\01_ArrayList.exe 01_LinearStruc
 #############################################
 # Folder: D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/02_TreeStruct
 
-build 02_TreeStruct\all: phony 02_TreeStruct\07_BinaryTreeTravel.exe 02_TreeStruct\08_ThreadedBTree.exe 02_TreeStruct\09_BSTree.exe
+build 02_TreeStruct\all: phony 02_TreeStruct\07_BinaryTreeTravel.exe 02_TreeStruct\08_ThreadedBTree.exe 02_TreeStruct\09_BSTree.exe 02_TreeStruct\10_AVLTree.exe
 
 # =============================================================================
 # Built-in targets

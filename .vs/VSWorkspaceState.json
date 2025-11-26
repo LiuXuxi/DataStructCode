@@ -14,7 +14,10 @@
   "ExpandedNodes": [
     "",
     "\\02_TreeStruct",
-    "\\02_TreeStruct\\03_BSTree"
+    "\\02_TreeStruct\\01_BinaryTreeTravel",
+    "\\02_TreeStruct\\02_ThreadedBTree",
+    "\\02_TreeStruct\\03_BSTree",
+    "\\02_TreeStruct\\04_AVLTree"
   ],
   "PreviewInSolutionExplorer": false
 }
