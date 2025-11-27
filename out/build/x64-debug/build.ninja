@@ -491,6 +491,42 @@ build 02_TreeStruct\10_AVLTree.exe: CXX_EXECUTABLE_LINKER__10_AVLTree_Debug 02_T
   TARGET_IMPLIB = 02_TreeStruct\10_AVLTree.lib
   TARGET_PDB = 02_TreeStruct\10_AVLTree.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 11_UnionFindSet
+
+
+#############################################
+# Order-only phony target for 11_UnionFindSet
+
+build cmake_object_order_depends_target_11_UnionFindSet: phony || .
+
+build 02_TreeStruct\CMakeFiles\11_UnionFindSet.dir\05_UnionFindSet\main.cpp.obj: CXX_COMPILER__11_UnionFindSet_unscanned_Debug D$:\Develop\vs2022\develop\DataStructPractice\02_TreeStruct\05_UnionFindSet\main.cpp || cmake_object_order_depends_target_11_UnionFindSet
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = 02_TreeStruct\CMakeFiles\11_UnionFindSet.dir
+  OBJECT_FILE_DIR = 02_TreeStruct\CMakeFiles\11_UnionFindSet.dir\05_UnionFindSet
+  TARGET_COMPILE_PDB = 02_TreeStruct\CMakeFiles\11_UnionFindSet.dir\
+  TARGET_PDB = 02_TreeStruct\11_UnionFindSet.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11_UnionFindSet
+
+
+#############################################
+# Link the executable 02_TreeStruct\11_UnionFindSet.exe
+
+build 02_TreeStruct\11_UnionFindSet.exe: CXX_EXECUTABLE_LINKER__11_UnionFindSet_Debug 02_TreeStruct\CMakeFiles\11_UnionFindSet.dir\05_UnionFindSet\main.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = 02_TreeStruct\CMakeFiles\11_UnionFindSet.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 02_TreeStruct\CMakeFiles\11_UnionFindSet.dir\
+  TARGET_FILE = 02_TreeStruct\11_UnionFindSet.exe
+  TARGET_IMPLIB = 02_TreeStruct\11_UnionFindSet.lib
+  TARGET_PDB = 02_TreeStruct\11_UnionFindSet.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -557,6 +593,10 @@ build 10_AVLTree: phony 02_TreeStruct\10_AVLTree.exe
 
 build 10_AVLTree.exe: phony 02_TreeStruct\10_AVLTree.exe
 
+build 11_UnionFindSet: phony 02_TreeStruct\11_UnionFindSet.exe
+
+build 11_UnionFindSet.exe: phony 02_TreeStruct\11_UnionFindSet.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -579,7 +619,7 @@ build 01_LinearStruct\all: phony 01_LinearStruct\01_ArrayList.exe 01_LinearStruc
 #############################################
 # Folder: D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/02_TreeStruct
 
-build 02_TreeStruct\all: phony 02_TreeStruct\07_BinaryTreeTravel.exe 02_TreeStruct\08_ThreadedBTree.exe 02_TreeStruct\09_BSTree.exe 02_TreeStruct\10_AVLTree.exe
+build 02_TreeStruct\all: phony 02_TreeStruct\07_BinaryTreeTravel.exe 02_TreeStruct\08_ThreadedBTree.exe 02_TreeStruct\09_BSTree.exe 02_TreeStruct\10_AVLTree.exe 02_TreeStruct\11_UnionFindSet.exe
 
 # =============================================================================
 # Built-in targets
