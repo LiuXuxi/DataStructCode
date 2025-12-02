@@ -3,3 +3,4 @@ add_executable(08_ThreadedBTree "02_ThreadedBTree/main.cpp" "02_ThreadedBTree/Th
 add_executable(09_BSTree "03_BSTree/main.cpp" "03_BSTree/BSTree.h")
 add_executable(10_AVLTree "04_AVLTree/main.cpp")
 add_executable(11_UnionFindSet "05_UnionFindSet/main.cpp")
+add_executable(12_HuffmanTree "06_HuffmanTree/main.cpp")

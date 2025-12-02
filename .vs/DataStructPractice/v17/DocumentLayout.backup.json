@@ -3,6 +3,25 @@
   "WorkspaceRootPath": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\06_HuffmanTree\\huffmantree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:02_TreeStruct\\06_HuffmanTree\\huffmantree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lxx\\Downloads\\Huffman\u6811\u53CA\u6811\u7684\u4EE3\u7801\u5168\\02_TreeStruct\\06_HuffmanTree\\HuffmanTree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\06_HuffmanTree\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:02_TreeStruct\\06_HuffmanTree\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:02_TreeStruct\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\05_UnionFindSet\\QuickUnion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:02_TreeStruct\\05_UnionFindSet\\QuickUnion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\05_UnionFindSet\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:02_TreeStruct\\05_UnionFindSet\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -12,10 +31,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lxx\\AppData\\Local\\Temp\\577c1e0d-08b8-431f-89d1-03eade848bef_\u5E76\u67E5\u96C6QuickFind.zip.\u5E76\u67E5\u96C6QuickFind.zip\\02_TreeStruct\\05_UnionFindSet\\quickFindSet.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:02_TreeStruct\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\04_AVLTree\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -36,11 +51,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
@@ -48,48 +63,84 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "quickFindSet.c",
-              "DocumentMoniker": "C:\\Users\\lxx\\AppData\\Local\\Temp\\577c1e0d-08b8-431f-89d1-03eade848bef_\u5E76\u67E5\u96C6QuickFind.zip.\u5E76\u67E5\u96C6QuickFind.zip\\02_TreeStruct\\05_UnionFindSet\\quickFindSet.c",
-              "ToolTip": "C:\\Users\\lxx\\AppData\\Local\\Temp\\577c1e0d-08b8-431f-89d1-03eade848bef_\u5E76\u67E5\u96C6QuickFind.zip.\u5E76\u67E5\u96C6QuickFind.zip\\02_TreeStruct\\05_UnionFindSet\\quickFindSet.c [\u53EA\u8BFB]",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-27T03:26:21.315Z",
-              "EditorCaption": " [\u53EA\u8BFB]"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "QuickFindSet.h",
-              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\05_UnionFindSet\\QuickFindSet.h",
-              "RelativeDocumentMoniker": "02_TreeStruct\\05_UnionFindSet\\QuickFindSet.h",
-              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\05_UnionFindSet\\QuickFindSet.h",
-              "RelativeToolTip": "02_TreeStruct\\05_UnionFindSet\\QuickFindSet.h",
-              "ViewState": "AgIAABoAAAAAAAAAAAAhwCcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-27T03:17:22.132Z",
+              "Title": "HuffmanTree.c",
+              "DocumentMoniker": "C:\\Users\\lxx\\Downloads\\Huffman\u6811\u53CA\u6811\u7684\u4EE3\u7801\u5168\\02_TreeStruct\\06_HuffmanTree\\HuffmanTree.c",
+              "ToolTip": "C:\\Users\\lxx\\Downloads\\Huffman\u6811\u53CA\u6811\u7684\u4EE3\u7801\u5168\\02_TreeStruct\\06_HuffmanTree\\HuffmanTree.c",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-02T07:13:15.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "huffmantree.h",
+              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\06_HuffmanTree\\huffmantree.h",
+              "RelativeDocumentMoniker": "02_TreeStruct\\06_HuffmanTree\\huffmantree.h",
+              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\06_HuffmanTree\\huffmantree.h",
+              "RelativeToolTip": "02_TreeStruct\\06_HuffmanTree\\huffmantree.h",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-02T01:01:37.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\06_HuffmanTree\\main.cpp",
+              "RelativeDocumentMoniker": "02_TreeStruct\\06_HuffmanTree\\main.cpp",
+              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\06_HuffmanTree\\main.cpp",
+              "RelativeToolTip": "02_TreeStruct\\06_HuffmanTree\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-02T01:01:22.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuickUnion.h",
+              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\05_UnionFindSet\\QuickUnion.h",
+              "RelativeDocumentMoniker": "02_TreeStruct\\05_UnionFindSet\\QuickUnion.h",
+              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\05_UnionFindSet\\QuickUnion.h",
+              "RelativeToolTip": "02_TreeStruct\\05_UnionFindSet\\QuickUnion.h",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvxYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-01T00:40:01.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuickFindSet.h",
+              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\05_UnionFindSet\\QuickFindSet.h",
+              "RelativeDocumentMoniker": "02_TreeStruct\\05_UnionFindSet\\QuickFindSet.h",
+              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\05_UnionFindSet\\QuickFindSet.h",
+              "RelativeToolTip": "02_TreeStruct\\05_UnionFindSet\\QuickFindSet.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-27T03:17:22.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\05_UnionFindSet\\main.cpp",
               "RelativeDocumentMoniker": "02_TreeStruct\\05_UnionFindSet\\main.cpp",
               "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\05_UnionFindSet\\main.cpp",
               "RelativeToolTip": "02_TreeStruct\\05_UnionFindSet\\main.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvywAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-27T03:17:00.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T03:17:00.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "AVLTree.h",
               "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\04_AVLTree\\AVLTree.h",
               "RelativeDocumentMoniker": "02_TreeStruct\\04_AVLTree\\AVLTree.h",
@@ -101,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\04_AVLTree\\main.cpp",
               "RelativeDocumentMoniker": "02_TreeStruct\\04_AVLTree\\main.cpp",
@@ -119,13 +170,23 @@
               "RelativeDocumentMoniker": "02_TreeStruct\\CMakeLists.txt",
               "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\02_TreeStruct\\CMakeLists.txt",
               "RelativeToolTip": "02_TreeStruct\\CMakeLists.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-11-15T01:47:11.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "quickFindSet.c",
+              "DocumentMoniker": "C:\\Users\\lxx\\AppData\\Local\\Temp\\577c1e0d-08b8-431f-89d1-03eade848bef_\u5E76\u67E5\u96C6QuickFind.zip.\u5E76\u67E5\u96C6QuickFind.zip\\02_TreeStruct\\05_UnionFindSet\\quickFindSet.c",
+              "ToolTip": "C:\\Users\\lxx\\AppData\\Local\\Temp\\577c1e0d-08b8-431f-89d1-03eade848bef_\u5E76\u67E5\u96C6QuickFind.zip.\u5E76\u67E5\u96C6QuickFind.zip\\02_TreeStruct\\05_UnionFindSet\\quickFindSet.c [\u53EA\u8BFB]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-27T03:26:21.315Z",
+              "EditorCaption": " [\u53EA\u8BFB]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AVLTree.c",
               "DocumentMoniker": "C:\\Users\\lxx\\AppData\\Local\\Temp\\d0888dd7-a968-4328-a629-a7951ea53f8a_AVL\u6811\u4EE3\u7801\u5168.zip.f8a\\02_TreeStruct\\04_AVLTree\\AVLTree.c",
               "ToolTip": "C:\\Users\\lxx\\AppData\\Local\\Temp\\d0888dd7-a968-4328-a629-a7951ea53f8a_AVL\u6811\u4EE3\u7801\u5168.zip.f8a\\02_TreeStruct\\04_AVLTree\\AVLTree.c [\u53EA\u8BFB]",
