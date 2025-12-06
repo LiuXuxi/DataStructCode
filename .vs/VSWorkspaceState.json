@@ -13,13 +13,8 @@
   },
   "ExpandedNodes": [
     "",
-    "\\02_TreeStruct",
-    "\\02_TreeStruct\\01_BinaryTreeTravel",
-    "\\02_TreeStruct\\02_ThreadedBTree",
-    "\\02_TreeStruct\\03_BSTree",
-    "\\02_TreeStruct\\04_AVLTree",
-    "\\02_TreeStruct\\05_UnionFindSet",
-    "\\02_TreeStruct\\06_HuffmanTree"
+    "\\03_GraphStruct",
+    "\\03_GraphStruct\\01_MatrixGraph"
   ],
   "PreviewInSolutionExplorer": false
 }

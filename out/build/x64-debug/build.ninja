@@ -587,6 +587,70 @@ build 02_TreeStruct\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
 build 02_TreeStruct\rebuild_cache: phony 02_TreeStruct\CMakeFiles\rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/Develop/vs2022/develop/DataStructPractice/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 13_MatrixGraph
+
+
+#############################################
+# Order-only phony target for 13_MatrixGraph
+
+build cmake_object_order_depends_target_13_MatrixGraph: phony || .
+
+build 03_GraphStruct\CMakeFiles\13_MatrixGraph.dir\01_MatrixGraph\main.cpp.obj: CXX_COMPILER__13_MatrixGraph_unscanned_Debug D$:\Develop\vs2022\develop\DataStructPractice\03_GraphStruct\01_MatrixGraph\main.cpp || cmake_object_order_depends_target_13_MatrixGraph
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\13_MatrixGraph.dir
+  OBJECT_FILE_DIR = 03_GraphStruct\CMakeFiles\13_MatrixGraph.dir\01_MatrixGraph
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\13_MatrixGraph.dir\
+  TARGET_PDB = 03_GraphStruct\13_MatrixGraph.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 13_MatrixGraph
+
+
+#############################################
+# Link the executable 03_GraphStruct\13_MatrixGraph.exe
+
+build 03_GraphStruct\13_MatrixGraph.exe: CXX_EXECUTABLE_LINKER__13_MatrixGraph_Debug 03_GraphStruct\CMakeFiles\13_MatrixGraph.dir\01_MatrixGraph\main.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\13_MatrixGraph.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\13_MatrixGraph.dir\
+  TARGET_FILE = 03_GraphStruct\13_MatrixGraph.exe
+  TARGET_IMPLIB = 03_GraphStruct\13_MatrixGraph.lib
+  TARGET_PDB = 03_GraphStruct\13_MatrixGraph.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build 03_GraphStruct\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Develop\vs2022\develop\DataStructPractice\out\build\x64-debug\03_GraphStruct && D:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 03_GraphStruct\edit_cache: phony 03_GraphStruct\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 03_GraphStruct\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\Develop\vs2022\develop\DataStructPractice\out\build\x64-debug\03_GraphStruct && D:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SD:\Develop\vs2022\develop\DataStructPractice -BD:\Develop\vs2022\develop\DataStructPractice\out\build\x64-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 03_GraphStruct\rebuild_cache: phony 03_GraphStruct\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build 01_ArrayList: phony 01_LinearStruct\01_ArrayList.exe
@@ -637,6 +701,10 @@ build 12_HuffmanTree: phony 02_TreeStruct\12_HuffmanTree.exe
 
 build 12_HuffmanTree.exe: phony 02_TreeStruct\12_HuffmanTree.exe
 
+build 13_MatrixGraph: phony 03_GraphStruct\13_MatrixGraph.exe
+
+build 13_MatrixGraph.exe: phony 03_GraphStruct\13_MatrixGraph.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -645,7 +713,7 @@ build 12_HuffmanTree.exe: phony 02_TreeStruct\12_HuffmanTree.exe
 #############################################
 # Folder: D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug
 
-build all: phony 01_LinearStruct\all 02_TreeStruct\all
+build all: phony 01_LinearStruct\all 02_TreeStruct\all 03_GraphStruct\all
 
 # =============================================================================
 
@@ -662,20 +730,27 @@ build 01_LinearStruct\all: phony 01_LinearStruct\01_ArrayList.exe 01_LinearStruc
 build 02_TreeStruct\all: phony 02_TreeStruct\07_BinaryTreeTravel.exe 02_TreeStruct\08_ThreadedBTree.exe 02_TreeStruct\09_BSTree.exe 02_TreeStruct\10_AVLTree.exe 02_TreeStruct\11_UnionFindSet.exe 02_TreeStruct\12_HuffmanTree.exe
 
 # =============================================================================
+
+#############################################
+# Folder: D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/03_GraphStruct
+
+build 03_GraphStruct\all: phony 03_GraphStruct\13_MatrixGraph.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles\3.31.6-msvc6\CMakeCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeCXXCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeRCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeSystem.cmake D$:\Develop\vs2022\develop\DataStructPractice\01_LinearStruct\CMakeLists.txt D$:\Develop\vs2022\develop\DataStructPractice\02_TreeStruct\CMakeLists.txt D$:\Develop\vs2022\develop\DataStructPractice\CMakeLists.txt D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles\3.31.6-msvc6\CMakeCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeCXXCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeRCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeSystem.cmake D$:\Develop\vs2022\develop\DataStructPractice\01_LinearStruct\CMakeLists.txt D$:\Develop\vs2022\develop\DataStructPractice\02_TreeStruct\CMakeLists.txt D$:\Develop\vs2022\develop\DataStructPractice\03_GraphStruct\CMakeLists.txt D$:\Develop\vs2022\develop\DataStructPractice\CMakeLists.txt D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles\3.31.6-msvc6\CMakeCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeCXXCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeRCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeSystem.cmake D$:\Develop\vs2022\develop\DataStructPractice\01_LinearStruct\CMakeLists.txt D$:\Develop\vs2022\develop\DataStructPractice\02_TreeStruct\CMakeLists.txt D$:\Develop\vs2022\develop\DataStructPractice\CMakeLists.txt D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles\3.31.6-msvc6\CMakeCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeCXXCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeRCCompiler.cmake CMakeFiles\3.31.6-msvc6\CMakeSystem.cmake D$:\Develop\vs2022\develop\DataStructPractice\01_LinearStruct\CMakeLists.txt D$:\Develop\vs2022\develop\DataStructPractice\02_TreeStruct\CMakeLists.txt D$:\Develop\vs2022\develop\DataStructPractice\03_GraphStruct\CMakeLists.txt D$:\Develop\vs2022\develop\DataStructPractice\CMakeLists.txt D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake D$:\vs2022\load\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake: phony
 
 
 #############################################

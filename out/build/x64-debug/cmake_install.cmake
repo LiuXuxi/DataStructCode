@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/01_LinearStruct/cmake_install.cmake")
   include("D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/02_TreeStruct/cmake_install.cmake")
+  include("D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/03_GraphStruct/cmake_install.cmake")
 
 endif()
 
