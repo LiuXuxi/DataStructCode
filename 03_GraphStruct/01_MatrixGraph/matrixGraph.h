@@ -51,7 +51,7 @@ public:
 		if (!isEdge(edges[x][y])) {
 			edges[x][y] = weight;
 			++edgeNum;
-			if (!directed)edges[y][x] = weight;
+			if (!directed)edges[y][x] = weight;	
 		}
 	}
 

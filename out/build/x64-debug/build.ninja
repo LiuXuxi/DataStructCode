@@ -627,6 +627,42 @@ build 03_GraphStruct\13_MatrixGraph.exe: CXX_EXECUTABLE_LINKER__13_MatrixGraph_D
   TARGET_IMPLIB = 03_GraphStruct\13_MatrixGraph.lib
   TARGET_PDB = 03_GraphStruct\13_MatrixGraph.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 14_Adjacency
+
+
+#############################################
+# Order-only phony target for 14_Adjacency
+
+build cmake_object_order_depends_target_14_Adjacency: phony || .
+
+build 03_GraphStruct\CMakeFiles\14_Adjacency.dir\02_AdjacencyList\main.cpp.obj: CXX_COMPILER__14_Adjacency_unscanned_Debug D$:\Develop\vs2022\develop\DataStructPractice\03_GraphStruct\02_AdjacencyList\main.cpp || cmake_object_order_depends_target_14_Adjacency
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\14_Adjacency.dir
+  OBJECT_FILE_DIR = 03_GraphStruct\CMakeFiles\14_Adjacency.dir\02_AdjacencyList
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\14_Adjacency.dir\
+  TARGET_PDB = 03_GraphStruct\14_Adjacency.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 14_Adjacency
+
+
+#############################################
+# Link the executable 03_GraphStruct\14_Adjacency.exe
+
+build 03_GraphStruct\14_Adjacency.exe: CXX_EXECUTABLE_LINKER__14_Adjacency_Debug 03_GraphStruct\CMakeFiles\14_Adjacency.dir\02_AdjacencyList\main.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\14_Adjacency.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\14_Adjacency.dir\
+  TARGET_FILE = 03_GraphStruct\14_Adjacency.exe
+  TARGET_IMPLIB = 03_GraphStruct\14_Adjacency.lib
+  TARGET_PDB = 03_GraphStruct\14_Adjacency.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -705,6 +741,10 @@ build 13_MatrixGraph: phony 03_GraphStruct\13_MatrixGraph.exe
 
 build 13_MatrixGraph.exe: phony 03_GraphStruct\13_MatrixGraph.exe
 
+build 14_Adjacency: phony 03_GraphStruct\14_Adjacency.exe
+
+build 14_Adjacency.exe: phony 03_GraphStruct\14_Adjacency.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -734,7 +774,7 @@ build 02_TreeStruct\all: phony 02_TreeStruct\07_BinaryTreeTravel.exe 02_TreeStru
 #############################################
 # Folder: D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/03_GraphStruct
 
-build 03_GraphStruct\all: phony 03_GraphStruct\13_MatrixGraph.exe
+build 03_GraphStruct\all: phony 03_GraphStruct\13_MatrixGraph.exe 03_GraphStruct\14_Adjacency.exe
 
 # =============================================================================
 # Built-in targets

@@ -14,7 +14,8 @@
   "ExpandedNodes": [
     "",
     "\\03_GraphStruct",
-    "\\03_GraphStruct\\01_MatrixGraph"
+    "\\03_GraphStruct\\01_MatrixGraph",
+    "\\03_GraphStruct\\02_AdjacencyList"
   ],
   "PreviewInSolutionExplorer": false
 }
