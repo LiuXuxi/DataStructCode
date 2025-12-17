@@ -35,6 +35,11 @@ private:
 	void visitMGraphNode(const MatrixVertex* node) { std::cout << node->show << " "; }
 
 public:
+
+	T getNodeShow(int no) {
+		return vexs[no].show;
+	}
+
 	MatrixGraph(std::vector<T>& nums, int direct, int edgeWeight) 
 		:directed(direct),nodeNum(nums.size()),edgeNum(0) {
 		for (int i = 0; i < nums.size(); i++) {
@@ -86,4 +91,12 @@ public:
 			}
 		}
 	}
+
+	int getEdgeWeight(int x, int y)const{
+		return edges[x][y];
+	}
+
+	int getNodeNum()const { return nodeNum; }
+
+	int getEdgeNum()const { return edgeNum; }
 };

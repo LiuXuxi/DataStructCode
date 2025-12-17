@@ -663,6 +663,114 @@ build 03_GraphStruct\14_Adjacency.exe: CXX_EXECUTABLE_LINKER__14_Adjacency_Debug
   TARGET_IMPLIB = 03_GraphStruct\14_Adjacency.lib
   TARGET_PDB = 03_GraphStruct\14_Adjacency.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 15_CrossLinkGraph
+
+
+#############################################
+# Order-only phony target for 15_CrossLinkGraph
+
+build cmake_object_order_depends_target_15_CrossLinkGraph: phony || .
+
+build 03_GraphStruct\CMakeFiles\15_CrossLinkGraph.dir\03_CrossLinkGraph\main.cpp.obj: CXX_COMPILER__15_CrossLinkGraph_unscanned_Debug D$:\Develop\vs2022\develop\DataStructPractice\03_GraphStruct\03_CrossLinkGraph\main.cpp || cmake_object_order_depends_target_15_CrossLinkGraph
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\15_CrossLinkGraph.dir
+  OBJECT_FILE_DIR = 03_GraphStruct\CMakeFiles\15_CrossLinkGraph.dir\03_CrossLinkGraph
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\15_CrossLinkGraph.dir\
+  TARGET_PDB = 03_GraphStruct\15_CrossLinkGraph.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 15_CrossLinkGraph
+
+
+#############################################
+# Link the executable 03_GraphStruct\15_CrossLinkGraph.exe
+
+build 03_GraphStruct\15_CrossLinkGraph.exe: CXX_EXECUTABLE_LINKER__15_CrossLinkGraph_Debug 03_GraphStruct\CMakeFiles\15_CrossLinkGraph.dir\03_CrossLinkGraph\main.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\15_CrossLinkGraph.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\15_CrossLinkGraph.dir\
+  TARGET_FILE = 03_GraphStruct\15_CrossLinkGraph.exe
+  TARGET_IMPLIB = 03_GraphStruct\15_CrossLinkGraph.lib
+  TARGET_PDB = 03_GraphStruct\15_CrossLinkGraph.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 16_AdjacencyMultiList
+
+
+#############################################
+# Order-only phony target for 16_AdjacencyMultiList
+
+build cmake_object_order_depends_target_16_AdjacencyMultiList: phony || .
+
+build 03_GraphStruct\CMakeFiles\16_AdjacencyMultiList.dir\04_AdjacencyMultiList\main.cpp.obj: CXX_COMPILER__16_AdjacencyMultiList_unscanned_Debug D$:\Develop\vs2022\develop\DataStructPractice\03_GraphStruct\04_AdjacencyMultiList\main.cpp || cmake_object_order_depends_target_16_AdjacencyMultiList
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\16_AdjacencyMultiList.dir
+  OBJECT_FILE_DIR = 03_GraphStruct\CMakeFiles\16_AdjacencyMultiList.dir\04_AdjacencyMultiList
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\16_AdjacencyMultiList.dir\
+  TARGET_PDB = 03_GraphStruct\16_AdjacencyMultiList.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 16_AdjacencyMultiList
+
+
+#############################################
+# Link the executable 03_GraphStruct\16_AdjacencyMultiList.exe
+
+build 03_GraphStruct\16_AdjacencyMultiList.exe: CXX_EXECUTABLE_LINKER__16_AdjacencyMultiList_Debug 03_GraphStruct\CMakeFiles\16_AdjacencyMultiList.dir\04_AdjacencyMultiList\main.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\16_AdjacencyMultiList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\16_AdjacencyMultiList.dir\
+  TARGET_FILE = 03_GraphStruct\16_AdjacencyMultiList.exe
+  TARGET_IMPLIB = 03_GraphStruct\16_AdjacencyMultiList.lib
+  TARGET_PDB = 03_GraphStruct\16_AdjacencyMultiList.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 17_MiniTree
+
+
+#############################################
+# Order-only phony target for 17_MiniTree
+
+build cmake_object_order_depends_target_17_MiniTree: phony || .
+
+build 03_GraphStruct\CMakeFiles\17_MiniTree.dir\05_MiniTree\main.cpp.obj: CXX_COMPILER__17_MiniTree_unscanned_Debug D$:\Develop\vs2022\develop\DataStructPractice\03_GraphStruct\05_MiniTree\main.cpp || cmake_object_order_depends_target_17_MiniTree
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\17_MiniTree.dir
+  OBJECT_FILE_DIR = 03_GraphStruct\CMakeFiles\17_MiniTree.dir\05_MiniTree
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\17_MiniTree.dir\
+  TARGET_PDB = 03_GraphStruct\17_MiniTree.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 17_MiniTree
+
+
+#############################################
+# Link the executable 03_GraphStruct\17_MiniTree.exe
+
+build 03_GraphStruct\17_MiniTree.exe: CXX_EXECUTABLE_LINKER__17_MiniTree_Debug 03_GraphStruct\CMakeFiles\17_MiniTree.dir\05_MiniTree\main.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\17_MiniTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\17_MiniTree.dir\
+  TARGET_FILE = 03_GraphStruct\17_MiniTree.exe
+  TARGET_IMPLIB = 03_GraphStruct\17_MiniTree.lib
+  TARGET_PDB = 03_GraphStruct\17_MiniTree.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -745,6 +853,18 @@ build 14_Adjacency: phony 03_GraphStruct\14_Adjacency.exe
 
 build 14_Adjacency.exe: phony 03_GraphStruct\14_Adjacency.exe
 
+build 15_CrossLinkGraph: phony 03_GraphStruct\15_CrossLinkGraph.exe
+
+build 15_CrossLinkGraph.exe: phony 03_GraphStruct\15_CrossLinkGraph.exe
+
+build 16_AdjacencyMultiList: phony 03_GraphStruct\16_AdjacencyMultiList.exe
+
+build 16_AdjacencyMultiList.exe: phony 03_GraphStruct\16_AdjacencyMultiList.exe
+
+build 17_MiniTree: phony 03_GraphStruct\17_MiniTree.exe
+
+build 17_MiniTree.exe: phony 03_GraphStruct\17_MiniTree.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -774,7 +894,7 @@ build 02_TreeStruct\all: phony 02_TreeStruct\07_BinaryTreeTravel.exe 02_TreeStru
 #############################################
 # Folder: D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/03_GraphStruct
 
-build 03_GraphStruct\all: phony 03_GraphStruct\13_MatrixGraph.exe 03_GraphStruct\14_Adjacency.exe
+build 03_GraphStruct\all: phony 03_GraphStruct\13_MatrixGraph.exe 03_GraphStruct\14_Adjacency.exe 03_GraphStruct\15_CrossLinkGraph.exe 03_GraphStruct\16_AdjacencyMultiList.exe 03_GraphStruct\17_MiniTree.exe
 
 # =============================================================================
 # Built-in targets
