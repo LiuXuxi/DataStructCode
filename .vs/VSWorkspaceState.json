@@ -14,10 +14,9 @@
   "ExpandedNodes": [
     "",
     "\\03_GraphStruct",
-    "\\03_GraphStruct\\01_MatrixGraph",
-    "\\03_GraphStruct\\04_AdjacencyMultiList",
-    "\\03_GraphStruct\\05_MiniTree"
+    "\\03_GraphStruct\\05_MiniTree",
+    "\\03_GraphStruct\\06_ShortPath"
   ],
-  "SelectedNode": "\\03_GraphStruct\\05_MiniTree\\Prim.h",
+  "SelectedNode": "\\03_GraphStruct\\05_MiniTree\\main.cpp",
   "PreviewInSolutionExplorer": false
 }

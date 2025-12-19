@@ -3,27 +3,22 @@
   "WorkspaceRootPath": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\05_MiniTree\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\05_MiniTree\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\06_ShortPath\\Dijkstra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\06_ShortPath\\Dijkstra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lxx\\Downloads\\Prim\u7B97\u6CD5\\03_GraphStruct\\05_MiniTree\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\06_ShortPath\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\06_ShortPath\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\05_MiniTree\\Prim.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\05_MiniTree\\Prim.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lxx\\Downloads\\Dijkstra\u7B97\u6CD5\\03_GraphStruct\\06_ShortPath\\DijkstraShortPath.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\01_MatrixGraph\\matrixGraph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\01_MatrixGraph\\matrixGraph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lxx\\Downloads\\Dijkstra\u7B97\u6CD5\\03_GraphStruct\\06_ShortPath\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\05_MiniTree\\Kruskal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\05_MiniTree\\Kruskal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\05_MiniTree\\common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\05_MiniTree\\common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,78 +44,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\lxx\\Downloads\\Prim\u7B97\u6CD5\\03_GraphStruct\\05_MiniTree\\main.c",
-              "ToolTip": "C:\\Users\\lxx\\Downloads\\Prim\u7B97\u6CD5\\03_GraphStruct\\05_MiniTree\\main.c",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-16T15:14:46.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "matrixGraph.h",
-              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\01_MatrixGraph\\matrixGraph.h",
-              "RelativeDocumentMoniker": "03_GraphStruct\\01_MatrixGraph\\matrixGraph.h",
-              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\01_MatrixGraph\\matrixGraph.h",
-              "RelativeToolTip": "03_GraphStruct\\01_MatrixGraph\\matrixGraph.h",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-16T14:47:53.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Kruskal.h",
-              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\05_MiniTree\\Kruskal.h",
-              "RelativeDocumentMoniker": "03_GraphStruct\\05_MiniTree\\Kruskal.h",
-              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\05_MiniTree\\Kruskal.h",
-              "RelativeToolTip": "03_GraphStruct\\05_MiniTree\\Kruskal.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAGEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-16T14:44:22.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "common.h",
-              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\05_MiniTree\\common.h",
-              "RelativeDocumentMoniker": "03_GraphStruct\\05_MiniTree\\common.h",
-              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\05_MiniTree\\common.h",
-              "RelativeToolTip": "03_GraphStruct\\05_MiniTree\\common.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-16T12:52:12.802Z",
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "03_GraphStruct\\CMakeLists.txt",
+              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\CMakeLists.txt",
+              "RelativeToolTip": "03_GraphStruct\\CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-19T08:05:31.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\05_MiniTree\\main.cpp",
-              "RelativeDocumentMoniker": "03_GraphStruct\\05_MiniTree\\main.cpp",
-              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\05_MiniTree\\main.cpp",
-              "RelativeToolTip": "03_GraphStruct\\05_MiniTree\\main.cpp",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-16T12:49:22.875Z",
+              "Title": "Dijkstra.h",
+              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\06_ShortPath\\Dijkstra.h",
+              "RelativeDocumentMoniker": "03_GraphStruct\\06_ShortPath\\Dijkstra.h",
+              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\06_ShortPath\\Dijkstra.h",
+              "RelativeToolTip": "03_GraphStruct\\06_ShortPath\\Dijkstra.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-19T08:05:23.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\06_ShortPath\\main.cpp",
+              "RelativeDocumentMoniker": "03_GraphStruct\\06_ShortPath\\main.cpp",
+              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\06_ShortPath\\main.cpp",
+              "RelativeToolTip": "03_GraphStruct\\06_ShortPath\\main.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-19T08:05:01.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\lxx\\Downloads\\Dijkstra\u7B97\u6CD5\\03_GraphStruct\\06_ShortPath\\main.c",
+              "ToolTip": "C:\\Users\\lxx\\Downloads\\Dijkstra\u7B97\u6CD5\\03_GraphStruct\\06_ShortPath\\main.c",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-19T08:03:29.259Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "d501c645-1df0-42bd-9498-1e1d2eebf9d0",
+        "Display": 0,
+        "X": 287,
+        "Y": 670,
+        "Width": 1125,
+        "Height": 622,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Prim.h",
-              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\05_MiniTree\\Prim.h",
-              "RelativeDocumentMoniker": "03_GraphStruct\\05_MiniTree\\Prim.h",
-              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\05_MiniTree\\Prim.h",
-              "RelativeToolTip": "03_GraphStruct\\05_MiniTree\\Prim.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwCwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-16T12:48:05.087Z",
+              "Title": "DijkstraShortPath.c",
+              "DocumentMoniker": "C:\\Users\\lxx\\Downloads\\Dijkstra\u7B97\u6CD5\\03_GraphStruct\\06_ShortPath\\DijkstraShortPath.c",
+              "ToolTip": "C:\\Users\\lxx\\Downloads\\Dijkstra\u7B97\u6CD5\\03_GraphStruct\\06_ShortPath\\DijkstraShortPath.c",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-19T08:03:32.522Z",
               "EditorCaption": ""
             }
           ]
