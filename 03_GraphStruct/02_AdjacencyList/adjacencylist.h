@@ -2,22 +2,24 @@
 #include<vector>
 #include<iostream>
 
+typedef struct node {
+	int no;
+	int weight;
+	struct node* next;
+}ArcEdge;
+
+template<class T>
+class ArcNode {
+public:
+	int no;
+	T show;
+	ArcEdge* firstEdge;
+};
+
 template<class T>
 class ArcList {
 private:
-	typedef struct node {
-		int no;
-		int weight;
-		struct node* next;
-	}ArcEdge;
-
-	typedef struct {
-		int no;
-		T show;
-		ArcEdge* firstEdge;
-	}ArcNode;
-
-	ArcNode* nodes;
+	ArcNode<T>* nodes;
 	int nodeNum;
 	int edgeNum;
 	int directed;
@@ -55,7 +57,7 @@ public:
 		nodeNum(nums.size()), edgeNum(0), directed(direct) {
 		visited = new int[nodeNum];
 		memset(visited, 0, sizeof(int) * nodeNum);
-		nodes = new ArcNode[nodeNum];
+		nodes = new ArcNode<T>[nodeNum];
 		for (int i = 0; i < nums.size(); i++) {
 			nodes[i].no = i;
 			nodes[i].show = nums[i];
@@ -122,5 +124,17 @@ public:
 		}
 		delete(queue);
 		std::cout << std::endl;
+	}
+
+	int getNodeNum()const {
+		return nodeNum;
+	}
+
+	int getEdgeNum()const {
+		return edgeNum;
+	}
+
+	ArcNode<T>* getNodes()const {
+		return nodes;
 	}
 };

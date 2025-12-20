@@ -14,9 +14,10 @@
   "ExpandedNodes": [
     "",
     "\\03_GraphStruct",
+    "\\03_GraphStruct\\02_AdjacencyList",
     "\\03_GraphStruct\\05_MiniTree",
-    "\\03_GraphStruct\\06_ShortPath"
+    "\\03_GraphStruct\\07_TopologicalSort"
   ],
-  "SelectedNode": "\\03_GraphStruct\\05_MiniTree\\main.cpp",
+  "SelectedNode": "\\03_GraphStruct\\02_AdjacencyList\\adjacencylist.h",
   "PreviewInSolutionExplorer": false
 }

@@ -3,22 +3,26 @@
   "WorkspaceRootPath": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\06_ShortPath\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\06_ShortPath\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\07_TopologicalSort\\topologicalsort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\07_TopologicalSort\\topologicalsort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\06_ShortPath\\Dijkstra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\06_ShortPath\\Dijkstra.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\07_TopologicalSort\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\07_TopologicalSort\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lxx\\Downloads\\Dijkstra\u7B97\u6CD5\\03_GraphStruct\\06_ShortPath\\DijkstraShortPath.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\02_AdjacencyList\\adjacencylist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\02_AdjacencyList\\adjacencylist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lxx\\Downloads\\Dijkstra\u7B97\u6CD5\\03_GraphStruct\\06_ShortPath\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lxx\\Downloads\\\u62D3\u6251\u6392\u5E8F\\03_GraphStruct\\07_TopologicalSort\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lxx\\Downloads\\\u62D3\u6251\u6392\u5E8F\\03_GraphStruct\\07_TopologicalSort\\topologicalSort.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\02_AdjacencyList\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:03_GraphStruct\\02_AdjacencyList\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,85 +48,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CMakeLists.txt",
-              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\CMakeLists.txt",
-              "RelativeDocumentMoniker": "03_GraphStruct\\CMakeLists.txt",
-              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\CMakeLists.txt",
-              "RelativeToolTip": "03_GraphStruct\\CMakeLists.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-12-19T08:05:31.036Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\02_AdjacencyList\\main.cpp",
+              "RelativeDocumentMoniker": "03_GraphStruct\\02_AdjacencyList\\main.cpp",
+              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\02_AdjacencyList\\main.cpp",
+              "RelativeToolTip": "03_GraphStruct\\02_AdjacencyList\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-20T02:57:27.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dijkstra.h",
-              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\06_ShortPath\\Dijkstra.h",
-              "RelativeDocumentMoniker": "03_GraphStruct\\06_ShortPath\\Dijkstra.h",
-              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\06_ShortPath\\Dijkstra.h",
-              "RelativeToolTip": "03_GraphStruct\\06_ShortPath\\Dijkstra.h",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "adjacencylist.h",
+              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\02_AdjacencyList\\adjacencylist.h",
+              "RelativeDocumentMoniker": "03_GraphStruct\\02_AdjacencyList\\adjacencylist.h",
+              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\02_AdjacencyList\\adjacencylist.h",
+              "RelativeToolTip": "03_GraphStruct\\02_AdjacencyList\\adjacencylist.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-19T08:05:23.37Z",
+              "WhenOpened": "2025-12-20T02:49:10.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "topologicalsort.h",
+              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\07_TopologicalSort\\topologicalsort.h",
+              "RelativeDocumentMoniker": "03_GraphStruct\\07_TopologicalSort\\topologicalsort.h",
+              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\07_TopologicalSort\\topologicalsort.h",
+              "RelativeToolTip": "03_GraphStruct\\07_TopologicalSort\\topologicalsort.h",
+              "ViewState": "AgIAABgAAAAAAAAAAAAnwCYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-20T02:44:11.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\06_ShortPath\\main.cpp",
-              "RelativeDocumentMoniker": "03_GraphStruct\\06_ShortPath\\main.cpp",
-              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\06_ShortPath\\main.cpp",
-              "RelativeToolTip": "03_GraphStruct\\06_ShortPath\\main.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\07_TopologicalSort\\main.cpp",
+              "RelativeDocumentMoniker": "03_GraphStruct\\07_TopologicalSort\\main.cpp",
+              "ToolTip": "D:\\Develop\\vs2022\\develop\\DataStructPractice\\03_GraphStruct\\07_TopologicalSort\\main.cpp",
+              "RelativeToolTip": "03_GraphStruct\\07_TopologicalSort\\main.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-19T08:05:01.061Z",
+              "WhenOpened": "2025-12-20T02:43:45.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\lxx\\Downloads\\Dijkstra\u7B97\u6CD5\\03_GraphStruct\\06_ShortPath\\main.c",
-              "ToolTip": "C:\\Users\\lxx\\Downloads\\Dijkstra\u7B97\u6CD5\\03_GraphStruct\\06_ShortPath\\main.c",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAbAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\lxx\\Downloads\\\u62D3\u6251\u6392\u5E8F\\03_GraphStruct\\07_TopologicalSort\\main.c",
+              "ToolTip": "C:\\Users\\lxx\\Downloads\\\u62D3\u6251\u6392\u5E8F\\03_GraphStruct\\07_TopologicalSort\\main.c",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-19T08:03:29.259Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "d501c645-1df0-42bd-9498-1e1d2eebf9d0",
-        "Display": 0,
-        "X": 287,
-        "Y": 670,
-        "Width": 1125,
-        "Height": 622,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "WhenOpened": "2025-12-20T02:30:31.154Z"
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DijkstraShortPath.c",
-              "DocumentMoniker": "C:\\Users\\lxx\\Downloads\\Dijkstra\u7B97\u6CD5\\03_GraphStruct\\06_ShortPath\\DijkstraShortPath.c",
-              "ToolTip": "C:\\Users\\lxx\\Downloads\\Dijkstra\u7B97\u6CD5\\03_GraphStruct\\06_ShortPath\\DijkstraShortPath.c",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAATAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "topologicalSort.c",
+              "DocumentMoniker": "C:\\Users\\lxx\\Downloads\\\u62D3\u6251\u6392\u5E8F\\03_GraphStruct\\07_TopologicalSort\\topologicalSort.c",
+              "ToolTip": "C:\\Users\\lxx\\Downloads\\\u62D3\u6251\u6392\u5E8F\\03_GraphStruct\\07_TopologicalSort\\topologicalSort.c",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-19T08:03:32.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-20T02:30:26.49Z"
             }
           ]
         }

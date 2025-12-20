@@ -2,7 +2,6 @@
 #include<vector>
 #include<string>
 
-
 int main() {
 	int n = 5;
 	std::vector<std::string> names = { "A", "B", "C", "D", "E" };

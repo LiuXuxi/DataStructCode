@@ -2,9 +2,12 @@
 #include<vector>
 #include<iostream>
 
+
+
 template<class T>
 class AdjacencyMultiList {
 private:
+	
 	typedef struct node {
 		int weight;
 		int mark;

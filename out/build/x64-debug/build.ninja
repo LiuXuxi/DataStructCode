@@ -807,6 +807,42 @@ build 03_GraphStruct\18_ShortPath.exe: CXX_EXECUTABLE_LINKER__18_ShortPath_Debug
   TARGET_IMPLIB = 03_GraphStruct\18_ShortPath.lib
   TARGET_PDB = 03_GraphStruct\18_ShortPath.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 19_TopologicalSort
+
+
+#############################################
+# Order-only phony target for 19_TopologicalSort
+
+build cmake_object_order_depends_target_19_TopologicalSort: phony || .
+
+build 03_GraphStruct\CMakeFiles\19_TopologicalSort.dir\07_TopologicalSort\main.cpp.obj: CXX_COMPILER__19_TopologicalSort_unscanned_Debug D$:\Develop\vs2022\develop\DataStructPractice\03_GraphStruct\07_TopologicalSort\main.cpp || cmake_object_order_depends_target_19_TopologicalSort
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\19_TopologicalSort.dir
+  OBJECT_FILE_DIR = 03_GraphStruct\CMakeFiles\19_TopologicalSort.dir\07_TopologicalSort
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\19_TopologicalSort.dir\
+  TARGET_PDB = 03_GraphStruct\19_TopologicalSort.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 19_TopologicalSort
+
+
+#############################################
+# Link the executable 03_GraphStruct\19_TopologicalSort.exe
+
+build 03_GraphStruct\19_TopologicalSort.exe: CXX_EXECUTABLE_LINKER__19_TopologicalSort_Debug 03_GraphStruct\CMakeFiles\19_TopologicalSort.dir\07_TopologicalSort\main.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\19_TopologicalSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\19_TopologicalSort.dir\
+  TARGET_FILE = 03_GraphStruct\19_TopologicalSort.exe
+  TARGET_IMPLIB = 03_GraphStruct\19_TopologicalSort.lib
+  TARGET_PDB = 03_GraphStruct\19_TopologicalSort.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -905,6 +941,10 @@ build 18_ShortPath: phony 03_GraphStruct\18_ShortPath.exe
 
 build 18_ShortPath.exe: phony 03_GraphStruct\18_ShortPath.exe
 
+build 19_TopologicalSort: phony 03_GraphStruct\19_TopologicalSort.exe
+
+build 19_TopologicalSort.exe: phony 03_GraphStruct\19_TopologicalSort.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -934,7 +974,7 @@ build 02_TreeStruct\all: phony 02_TreeStruct\07_BinaryTreeTravel.exe 02_TreeStru
 #############################################
 # Folder: D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/03_GraphStruct
 
-build 03_GraphStruct\all: phony 03_GraphStruct\13_MatrixGraph.exe 03_GraphStruct\14_Adjacency.exe 03_GraphStruct\15_CrossLinkGraph.exe 03_GraphStruct\16_AdjacencyMultiList.exe 03_GraphStruct\17_MiniTree.exe 03_GraphStruct\18_ShortPath.exe
+build 03_GraphStruct\all: phony 03_GraphStruct\13_MatrixGraph.exe 03_GraphStruct\14_Adjacency.exe 03_GraphStruct\15_CrossLinkGraph.exe 03_GraphStruct\16_AdjacencyMultiList.exe 03_GraphStruct\17_MiniTree.exe 03_GraphStruct\18_ShortPath.exe 03_GraphStruct\19_TopologicalSort.exe
 
 # =============================================================================
 # Built-in targets
