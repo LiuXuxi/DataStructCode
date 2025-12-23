@@ -1,0 +1,6 @@
+add_executable(01_ArrayList "01_ArrayList/main.cpp" "01_ArrayList/arraylist.cpp"  )
+add_executable(06_Queue "06_Queue/arrayqueue.cpp" "06_Queue/main.cpp"  "06_Queue/linkqueue.cpp" )
+add_executable(02_LinkList "02_LinkList/main.cpp" "02_LinkList/linklist.cpp" )
+add_executable(03_LinkLoop "03_LinkLoop/main.cpp" )
+add_executable(05_Stack "05_Stack/main.cpp" )
+add_executable(04_DoubleLinkLoop "04_DoubleLinkLoop/main.cpp" )
