@@ -65,6 +65,61 @@ public:
 		}
 	}
 
+	// 拷贝构造函数 (深拷贝)
+	ArcList(const ArcList& other) {
+		nodeNum = other.nodeNum;
+		edgeNum = other.edgeNum;
+		nodes = new ArcNode<T>[nodeNum];
+		for (int i = 0; i < nodeNum; ++i) {
+			nodes[i].no = other.nodes[i].no;
+			nodes[i].show = other.nodes[i].show;
+			nodes[i].firstEdge = nullptr; // 先置空，再深拷贝边链表
+
+			ArcEdge* p = other.nodes[i].firstEdge;
+			ArcEdge** q = &nodes[i].firstEdge;
+			while (p) {
+				*q = new ArcEdge{ p->no, p->weight, nullptr };
+				p = p->next;
+				q = &((*q)->next);
+			}
+		}
+	}
+
+	// 拷贝赋值运算符 (深拷贝)
+	ArcList& operator=(const ArcList& other) {
+		if (this != &other) {
+			// 1. 释放当前对象的资源
+			for (int i = 0; i < nodeNum; i++) {
+				ArcEdge* p = nodes[i].firstEdge;
+				while (p) {
+					ArcEdge* temp = p;
+					p = p->next;
+					delete temp;
+				}
+			}
+			delete[] nodes;
+
+			// 2. 从 other 对象深拷贝数据
+			nodeNum = other.nodeNum;
+			edgeNum = other.edgeNum;
+			nodes = new ArcNode<T>[nodeNum];
+			for (int i = 0; i < nodeNum; ++i) {
+				nodes[i].no = other.nodes[i].no;
+				nodes[i].show = other.nodes[i].show;
+				nodes[i].firstEdge = nullptr;
+
+				ArcEdge* p = other.nodes[i].firstEdge;
+				ArcEdge** q = &nodes[i].firstEdge;
+				while (p) {
+					*q = new ArcEdge{ p->no, p->weight, nullptr };
+					p = p->next;
+					q = &((*q)->next);
+				}
+			}
+		}
+		return *this;
+	}
+
 	~ArcList() {
 		for (int i = 0; i < nodeNum; ++i) {
 			ArcEdge* p = nodes[i].firstEdge;

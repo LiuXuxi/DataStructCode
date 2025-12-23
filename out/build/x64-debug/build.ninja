@@ -843,6 +843,42 @@ build 03_GraphStruct\19_TopologicalSort.exe: CXX_EXECUTABLE_LINKER__19_Topologic
   TARGET_IMPLIB = 03_GraphStruct\19_TopologicalSort.lib
   TARGET_PDB = 03_GraphStruct\19_TopologicalSort.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 20_KeyPath
+
+
+#############################################
+# Order-only phony target for 20_KeyPath
+
+build cmake_object_order_depends_target_20_KeyPath: phony || .
+
+build 03_GraphStruct\CMakeFiles\20_KeyPath.dir\08_KeyPath\main.cpp.obj: CXX_COMPILER__20_KeyPath_unscanned_Debug D$:\Develop\vs2022\develop\DataStructPractice\03_GraphStruct\08_KeyPath\main.cpp || cmake_object_order_depends_target_20_KeyPath
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\20_KeyPath.dir
+  OBJECT_FILE_DIR = 03_GraphStruct\CMakeFiles\20_KeyPath.dir\08_KeyPath
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\20_KeyPath.dir\
+  TARGET_PDB = 03_GraphStruct\20_KeyPath.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 20_KeyPath
+
+
+#############################################
+# Link the executable 03_GraphStruct\20_KeyPath.exe
+
+build 03_GraphStruct\20_KeyPath.exe: CXX_EXECUTABLE_LINKER__20_KeyPath_Debug 03_GraphStruct\CMakeFiles\20_KeyPath.dir\08_KeyPath\main.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = 03_GraphStruct\CMakeFiles\20_KeyPath.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = 03_GraphStruct\CMakeFiles\20_KeyPath.dir\
+  TARGET_FILE = 03_GraphStruct\20_KeyPath.exe
+  TARGET_IMPLIB = 03_GraphStruct\20_KeyPath.lib
+  TARGET_PDB = 03_GraphStruct\20_KeyPath.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -945,6 +981,10 @@ build 19_TopologicalSort: phony 03_GraphStruct\19_TopologicalSort.exe
 
 build 19_TopologicalSort.exe: phony 03_GraphStruct\19_TopologicalSort.exe
 
+build 20_KeyPath: phony 03_GraphStruct\20_KeyPath.exe
+
+build 20_KeyPath.exe: phony 03_GraphStruct\20_KeyPath.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -974,7 +1014,7 @@ build 02_TreeStruct\all: phony 02_TreeStruct\07_BinaryTreeTravel.exe 02_TreeStru
 #############################################
 # Folder: D:/Develop/vs2022/develop/DataStructPractice/out/build/x64-debug/03_GraphStruct
 
-build 03_GraphStruct\all: phony 03_GraphStruct\13_MatrixGraph.exe 03_GraphStruct\14_Adjacency.exe 03_GraphStruct\15_CrossLinkGraph.exe 03_GraphStruct\16_AdjacencyMultiList.exe 03_GraphStruct\17_MiniTree.exe 03_GraphStruct\18_ShortPath.exe 03_GraphStruct\19_TopologicalSort.exe
+build 03_GraphStruct\all: phony 03_GraphStruct\13_MatrixGraph.exe 03_GraphStruct\14_Adjacency.exe 03_GraphStruct\15_CrossLinkGraph.exe 03_GraphStruct\16_AdjacencyMultiList.exe 03_GraphStruct\17_MiniTree.exe 03_GraphStruct\18_ShortPath.exe 03_GraphStruct\19_TopologicalSort.exe 03_GraphStruct\20_KeyPath.exe
 
 # =============================================================================
 # Built-in targets

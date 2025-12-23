@@ -16,7 +16,8 @@
     "\\03_GraphStruct",
     "\\03_GraphStruct\\02_AdjacencyList",
     "\\03_GraphStruct\\05_MiniTree",
-    "\\03_GraphStruct\\07_TopologicalSort"
+    "\\03_GraphStruct\\07_TopologicalSort",
+    "\\03_GraphStruct\\08_KeyPath"
   ],
   "SelectedNode": "\\03_GraphStruct\\02_AdjacencyList\\adjacencylist.h",
   "PreviewInSolutionExplorer": false
