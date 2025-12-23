@@ -367,6 +367,8 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-.vs
+# 忽略 Visual Studio 自动生成的文件夹
+.vs/
 
-out
+# 忽略 CMake 或编译生成的输出文件夹
+out/
