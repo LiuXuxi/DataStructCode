@@ -9,9 +9,11 @@ if (POLICY CMP0141)
   set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
 endif()
 
-project ("01_LinearStruct")
+
+project("DataStructPratice")
 
 # 包含子项目。
 add_subdirectory("01_LinearStruct")
 add_subdirectory("02_TreeStruct")
 add_subdirectory("03_GraphStruct")
+add_subdirectory("04_Sort")
